@@ -50,12 +50,12 @@
             </div>
         </section>
 
-<section id="portafolio">
+    <section id="portafolio">
     <h1 style="text-align: left;"> Proyectos </h1>
     <hr>
     <div class="portafolio">
         <div class="contenidos">
-            <h1 style="text-align: center;">Nombres</h1>
+            <h1 style="text-align: center; color: #333;">Nombres</h1>
             <ul>
                 <!-- Nueva opción 'Escuela' con subopciones -->
                 <li>
@@ -77,11 +77,13 @@
                     </ul>
                 </li>
                 <!-- Nuevas opciones -->
-                <li><a href="#portafolio" id="inet" class="op">INET</a></li>
-                <li><a href="#portafolio" id="pki" class="op">PKI</a></li>
-                <li><a href="#portafolio" id="stock" class="op">Sistema de Stock</a></li>
+                <li><a href="#portafolio" onclick="mostrarINET()" id="inet" class="op">INET</a></li>
+                <li><a href="#portafolio" onclick="mostrarPKI()" id="pki" class="op">PKI</a></li>
+                <li><a href="#portafolio" onclick="mostrarStock()" id="stock" class="op">Sistema de Stock</a></li>
+                <li><a href="#portafolio" onclick="mostrarBlog()" id="blog" class="op">Blog</a></li>
             </ul>
         </div>
+
         <div class="codigo">
             <h1 style="text-align: center;">Contenido</h1>
             <div id="caja" class="caja">
@@ -89,9 +91,8 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
 
-        <script src="script1.js"></script>
     </main>
 
     <br id="redes">
@@ -112,9 +113,11 @@
         </div>
         <br>
         <div class="footer2">
-            <p><b>Git Hub: </b><a href="https://github.com/DamiiMartinez/Dinamico" class="op">https://github.com/DamiiMartinez/Dinamico</a> </p>
+            <p><b>Git Hub: </b><a href="https://github.com/DamiiMartinez" class="op">https://github.com/DamiiMartinez</a> </p>
             <p> Copyright Damian Martinez&copy; Todos los derechos reservados  </p>
         </div>
     </footer>
 </body>
+
+<script src="script1.js"></script>
 </html>

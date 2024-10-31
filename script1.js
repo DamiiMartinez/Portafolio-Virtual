@@ -26,7 +26,11 @@ function mostrarTP1(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 1){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -59,7 +63,11 @@ function mostrarTP2(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 2){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -112,7 +120,11 @@ function mostrarTP3(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 3){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -159,7 +171,11 @@ function mostrarTP4(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 4){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -230,7 +246,11 @@ function mostrarTP5(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 5){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -267,7 +287,11 @@ function mostrarTP6(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 6){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -310,7 +334,11 @@ function mostrarTP7(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 7){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -343,7 +371,11 @@ function mostrarTP8(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 8){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -376,7 +408,11 @@ function mostrarTP9(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 9){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -468,7 +504,11 @@ function mostrarTP10(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 10){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -526,7 +566,11 @@ function mostrarTP11(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 11){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -598,7 +642,11 @@ function mostrarTP12(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 12){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
@@ -628,85 +676,125 @@ function mostrarJS(){
     for(let i=1; i<=13; i++){
         let count = i;
         if(count != 13){
-            document.getElementById(count).style.color='#0056b3';
+            document.getElementById(count).style.color='#333';
+            document.getElementById('blog').style.color='#333';
+            document.getElementById('pki').style.color='#333';
+            document.getElementById('inet').style.color='#333';
+            document.getElementById('stock').style.color='#333';
         }
     }
 }
 
-function mostrarStock(){
+function mostrarStock() {
     let elemento = document.getElementById('caja');
-    let texto = elemento.innerHTML= '<a href="">'
-                                     + 'Ver Sistema de Stock'
-                                     + '</a>';
+    elemento.innerHTML =  
+        '<p>En este link, presento un sistema de generación de archivos .txt que será usado dentro del sistema de stock para el INAREPS</p>' +
+        '<br>' +
+        '<p>Herramientas:</p>' +
+        '<ul>' +
+        '<li>HTML</li>' +
+        '<li>JS</li>' +
+        '<li>NodeJS</li>' +
+        '</ul>' +
+        '<br>' +
+        '<a href="https://github.com/DamiiMartinez/Sistema-de-Stock-INAREPS" target="_blank">' +
+        'https://github.com/DamiiMartinez/Sistema-de-Stock-INAREPS' +
+        '</a>';
 
-    document.getElementById('1').style.color='red';
-    for(let i=1; i<=13; i++){
-        let count = i;
-        if(count != 1){
-            document.getElementById(count).style.color='#0056b3';
+    document.getElementById('stock').style.color = 'red';
+    for (let i = 1; i <= 13; i++) {
+        if (i !== 1) {
+            document.getElementById(i).style.color = '#333';
+            document.getElementById('blog').style.color = '#333';
+            document.getElementById('pki').style.color = '#333';
+            document.getElementById('inet').style.color = '#333';
         }
     }
 }
 
-function mostrarPKI(){
+function mostrarPKI() {
     let elemento = document.getElementById('caja');
-    let texto = elemento.innerHTML= '<p>'
-                                     + 'Por cada linea de la entrada, el programa escribir a ESGRITO si el texto tiene mas signos de exclamacion que letras (del abecedario ingles), y escrito en caso contrario'
-                                     + '</p>';
-    var url1 = 'Imagenes/TP1 - Antes.png';
-    var url2 = 'Imagenes/TP1 - Despues.png';
+    elemento.innerHTML =  
+        '<p>Este proyecto es una Infraestructura de Clave Pública que emite certificados digitales para la Escuela de Educación Secundaria Técnica</p>' +
+        '<br>' +
+        '<p>Herramientas:</p>' +
+        '<ul>' +
+        '<li>HTML</li>' +
+        '<li>JS</li>' +
+        '<li>NodeJS</li>' +
+        '</ul>' +
+        '<br>' +
+        '<a href="https://github.com/DamiiMartinez/PKI-EEST-N-2" target="_blank">' +
+        'https://github.com/DamiiMartinez/PKI-EEST-N-2' +
+        '</a>';
 
-    var image1 = new Image();
-    image1.src = url1;
-
-    var image2 = new Image();
-    image2.src = url2;
-
-    if(elemento.style.height < '700px'){
-        let imagen1 = document.getElementById('caja').appendChild(image1).style.width="90%";
-        let imagen2 = document.getElementById('caja').appendChild(image2).style.width="90%";
-    }
-
-    else{
-        let imagen1 = document.getElementById('caja').appendChild(image1).style.width="750px";
-        let imagen2 = document.getElementById('caja').appendChild(image2).style.width="750px";
-    }
-
-    document.getElementById('1').style.color='red';
-    for(let i=1; i<=13; i++){
-        let count = i;
-        if(count != 1){
-            document.getElementById(count).style.color='#0056b3';
+    document.getElementById('pki').style.color = 'red';
+    for (let i = 1; i <= 13; i++) {
+        if (i !== 1) {
+            document.getElementById(i).style.color = '#333';
+            document.getElementById('stock').style.color = '#333';
+            document.getElementById('blog').style.color = '#333';
+            document.getElementById('inet').style.color = '#333';
         }
     }
 }
 
-function mostrarINET(){
+function mostrarINET() {
     let elemento = document.getElementById('caja');
-    let texto = elemento.innerHTML= '<p>'
-                                     + 'Por cada linea de la entrada, el programa escribir a ESGRITO si el texto tiene mas signos de exclamacion que letras (del abecedario ingles), y escrito en caso contrario'
-                                     + '</p>';
-    var image1 = new Image();
-    image1.src = url1;
+    elemento.innerHTML =  
+        '<p>Este link, te redirigirá a un eCommerce que se desarrolló para las Olimpiadas del INET</p>' +
+        '<br>' +
+        '<p>Herramientas:</p>' +
+        '<ul>' +
+        '<li>HTML</li>' +
+        '<li>JS</li>' +
+        '<li>NodeJS</li>' +
+        '</ul>' +
+        '<br>' +
+        '<a href="https://github.com/DamiiMartinez/eCommerce" target="_blank">' +
+        'https://github.com/DamiiMartinez/eCommerce' +
+        '</a>';
 
-    var image2 = new Image();
-    image2.src = url2;
-
-    if(elemento.style.height < '700px'){
-        let imagen1 = document.getElementById('caja').appendChild(image1).style.width="90%";
-        let imagen2 = document.getElementById('caja').appendChild(image2).style.width="90%";
+    document.getElementById('inet').style.color = 'red';
+    for (let i = 1; i <= 13; i++) {
+        if (i !== 1) {
+            document.getElementById(i).style.color = '#333';
+            document.getElementById('stock').style.color = '#333';
+            document.getElementById('pki').style.color = '#333';
+            document.getElementById('blog').style.color = '#333';
+        }
     }
+}
 
-    else{
-        let imagen1 = document.getElementById('caja').appendChild(image1).style.width="750px";
-        let imagen2 = document.getElementById('caja').appendChild(image2).style.width="750px";
-    }
+function mostrarBlog() {
+    let elemento = document.getElementById('caja');
+    elemento.innerHTML =  
+        '<p>El proyecto es un blog, que fue subido a GitHub para ser hosteado en la Webhost RENDER</p>' +
+        '<br>' +
+        '<p>Herramientas:</p>' +
+        '<ul>' +
+        '<li>HTML</li>' +
+        '<li>JS</li>' +
+        '<li>NodeJS</li>' +
+        '</ul>' +
+        '<p>GitHub:</p>' +
+        '<br>' +
+        '<a href="https://github.com/DamiiMartinez/Blog" target="_blank">' +
+        'https://github.com/DamiiMartinez/Blog' +
+        '</a>' +
+        '<p>Render:</p>' +
+        '<br>' +
+        '<a href="https://blog-q06l.onrender.com" target="_blank">' +
+        'https://blog-q06l.onrender.com' +
+        '</a>';
 
-    document.getElementById('1').style.color='red';
-    for(let i=1; i<=13; i++){
-        let count = i;
-        if(count != 1){
-            document.getElementById(count).style.color='#0056b3';
+    document.getElementById('blog').style.color = 'red';
+    for (let i = 1; i <= 13; i++) {
+        if (i !== 1) {
+            document.getElementById(i).style.color = '#333';
+            document.getElementById('stock').style.color = '#333';
+            document.getElementById('pki').style.color = '#333';
+            document.getElementById('inet').style.color = '#333';
         }
     }
 }
