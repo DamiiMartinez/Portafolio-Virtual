@@ -10,12 +10,6 @@ h1 {
     color: gainsboro;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-}
-
 li {
     padding: 10px;
 }
@@ -41,6 +35,12 @@ header {
 
 .opciones:hover {
     text-decoration: underline;
+}
+
+.section{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
 }
 
 .inicio {
@@ -119,6 +119,7 @@ header {
     padding: 10px;
     display: block;
     border-radius: 4px;
+    text-decoration: none;
     transition: background-color 0.2s; /* Transición para el hover */
 }
 
@@ -195,6 +196,7 @@ ul.submenu {
 footer {
     display: flex;
     padding: 25px;
+    color: white;
 }
 
 .footer1 {

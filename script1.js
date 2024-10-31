@@ -688,15 +688,16 @@ function mostrarJS(){
 function mostrarStock() {
     let elemento = document.getElementById('caja');
     elemento.innerHTML =  
-        '<p>En este link, presento un sistema de generación de archivos .txt que será usado dentro del sistema de stock para el INAREPS</p>' +
+        '<p>' + 'En este link, presento un sistema de generación de archivos .txt que será usado dentro del sistema de stock para el INAREPS' + '</p>' +
         '<br>' +
-        '<p>Herramientas:</p>' +
+        '<p>' + 'Herramientas:' + '</p>' +
         '<ul>' +
-        '<li>HTML</li>' +
-        '<li>JS</li>' +
-        '<li>NodeJS</li>' +
+            '<li>' + 'HTML' + '</li>' +
+            '<li>' + 'JS<' + '/li>' +
+            '<li>' + 'NodeJS' + '</li>' +
         '</ul>' +
         '<br>' +
+
         '<a href="https://github.com/DamiiMartinez/Sistema-de-Stock-INAREPS" target="_blank">' +
         'https://github.com/DamiiMartinez/Sistema-de-Stock-INAREPS' +
         '</a>';
@@ -715,13 +716,13 @@ function mostrarStock() {
 function mostrarPKI() {
     let elemento = document.getElementById('caja');
     elemento.innerHTML =  
-        '<p>Este proyecto es una Infraestructura de Clave Pública que emite certificados digitales para la Escuela de Educación Secundaria Técnica</p>' +
+        '<p>' + 'Este proyecto es una Infraestructura de Clave Pública que emite certificados digitales para la Escuela de Educación Secundaria Técnica' + '</p>' +
         '<br>' +
-        '<p>Herramientas:</p>' +
+        '<p>' + 'Herramientas:' + '</p>' +
         '<ul>' +
-        '<li>HTML</li>' +
-        '<li>JS</li>' +
-        '<li>NodeJS</li>' +
+            '<li>' + 'HTML' + '</li>' +
+            '<li>' + 'JS<' + '/li>' +
+            '<li>' + 'NodeJS' + '</li>' +
         '</ul>' +
         '<br>' +
         '<a href="https://github.com/DamiiMartinez/PKI-EEST-N-2" target="_blank">' +
@@ -742,17 +743,19 @@ function mostrarPKI() {
 function mostrarINET() {
     let elemento = document.getElementById('caja');
     elemento.innerHTML =  
-        '<p>Este link, te redirigirá a un eCommerce que se desarrolló para las Olimpiadas del INET</p>' +
+        '<p>' + 'Este link, te redirigirá a un eCommerce que se desarrolló para las Olimpiadas del INET' + '</p>' +
         '<br>' +
-        '<p>Herramientas:</p>' +
+
+        '<p>' + 'Herramientas:' + '</p>' +
         '<ul>' +
-        '<li>HTML</li>' +
-        '<li>JS</li>' +
-        '<li>NodeJS</li>' +
+            '<li>' + 'HTML' + '</li>' +
+            '<li>' + 'JS' + '</li>' +
+            '<li>' + 'NodeJS' + '</li>' +
         '</ul>' +
         '<br>' +
+
         '<a href="https://github.com/DamiiMartinez/eCommerce" target="_blank">' +
-        'https://github.com/DamiiMartinez/eCommerce' +
+            'https://github.com/DamiiMartinez/eCommerce' +
         '</a>';
 
     document.getElementById('inet').style.color = 'red';
@@ -769,20 +772,23 @@ function mostrarINET() {
 function mostrarBlog() {
     let elemento = document.getElementById('caja');
     elemento.innerHTML =  
-        '<p>El proyecto es un blog, que fue subido a GitHub para ser hosteado en la Webhost RENDER</p>' +
+        '<p>' + 'El proyecto es un blog, que fue subido a GitHub para ser hosteado en la Webhost RENDER' + '</p>' +
         '<br>' +
-        '<p>Herramientas:</p>' +
+
+        '<p>' + 'Herramientas:' + '</p>' +
         '<ul>' +
-        '<li>HTML</li>' +
-        '<li>JS</li>' +
-        '<li>NodeJS</li>' +
+            '<li>' + 'HTML' + '</li>' +
+            '<li>' + 'JS' + '</li>' +
+            '<li>' + 'NodeJS' + '</li>' +
         '</ul>' +
-        '<p>GitHub:</p>' +
+
+        '<p>'+ 'GitHub:' + '</p>' +
         '<br>' +
         '<a href="https://github.com/DamiiMartinez/Blog" target="_blank">' +
         'https://github.com/DamiiMartinez/Blog' +
         '</a>' +
-        '<p>Render:</p>' +
+
+        '<p>' + 'Render:' + '</p>' +
         '<br>' +
         '<a href="https://blog-q06l.onrender.com" target="_blank">' +
         'https://blog-q06l.onrender.com' +
