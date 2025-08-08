@@ -12,10 +12,6 @@ app.use(express.urlencoded({ extended: true })); // Para datos de formularios
 app.use(express.static(path.join(__dirname, "index.html")));
 
 // 📌 **Iniciar Base de Datos y Servidor**
-syncDatabase().then(() => {
-    app.listen(PORT, () => {
-        console.log(`Servidor corriendo en http://localhost:${PORT}`);
-    });
-}).catch((error) => {
-    console.error("❌ Error al iniciar:", error);
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en PUERTO:${PORT}`);
 });
