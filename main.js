@@ -9,7 +9,11 @@ app.use(express.json()); // Para datos en JSON
 app.use(express.urlencoded({ extended: true })); // Para datos de formularios
 
 // Servir archivos estáticos desde la carpeta "public"
-app.use(express.static(path.join(__dirname, "index.html")));
+app.use(express.static(path.join(__dirname)));
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "index.html"));
+});
 
 // 📌 **Iniciar Base de Datos y Servidor**
 app.listen(PORT, () => {
