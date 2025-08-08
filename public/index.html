@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li class="opciones"><a href="#inicio" class="section">Inicio</a></li>
+            <li class="opciones"><a href="#portafolio" class="section">Proyectos</a></li>
+            <li class="opciones"><a href="#redes" class="section">Redes Sociales</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <nav class="inicio" id="inicio">
+            <h1 class="titulo"> Portafolio Virtual - Damian Martinez</h1>
+        </nav>
+
+        <section class="Datos">
+            <div>
+                <img class="imagen" src="Imagenes/Perfil.jpg" width="300" height="300" style="border-radius: 100px; margin-top: 5px; margin-left: 10px;">
+            </div>
+
+            <div class="info">
+                <h1 style="text-align: left;"> Datos Personales </h1>
+                <hr>
+                <ul>
+                    <li>
+                        <p>
+                            Nombre: Damian Ignacio Martinez
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Telefono: +54 (Argentina) 223 578 8613
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gmail: damianmartinez3306@gmail.com
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Educacion: 
+                        </p>
+                        <ul>
+                            <li> Escuela de Educacion Secundaria Tecnica N°2 (EEST N°2) - Tecnicatura en Programacion (Informatica) - </li>
+                            <li> Universidad Atlantida - Licenciatura en Informatica (En Proceso) - </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    <section id="portafolio">
+    <h1 style="text-align: left;"> Proyectos </h1>
+    <hr>
+    <div class="portafolio">
+        <div class="contenidos">
+            <h1 style="text-align: center; color: #333;">Nombres</h1>
+            <ul>
+                <!-- Nuevas opciones -->
+                <li><a href="#contenido" onclick="mostrarINET()" id="inet" class="op">INET</a></li>
+                <li><a href="#contenido" onclick="mostrarPKI()" id="pki" class="op">PKI</a></li>
+                <li><a href="#contenido" onclick="mostrarStock()" id="stock" class="op">Sistema de Stock</a></li>
+                <li><a href="#contenido" onclick="mostrarBlog()" id="blog" class="op">Blog</a></li>
+                <li><a href="#contenido" onclick="mostrarECommerce()" id="eCommerce" class="op">eCommerce - Angela Indumentaria</a></li>
+            </ul>
+        </div>
+
+        <div class="codigo" id="contenido">
+            <h1 style="text-align: center;">Contenido</h1>
+            <div id="caja" class="caja">
+                <p>Para saber sobre mis proyectos: Haz click en las distintas opciones que hay en la lista</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    </main>
+
+    <br id="redes">
+    <footer>
+        <h1 class="red"> Redes Sociales </h1>
+        <hr>
+
+        <div class="pie">
+
+            <div class="footer1">
+                <p>Podes saber mas sobre mi en:</p>
+                <a href="https://www.instagram.com/damii_marttinez/">
+                    <img src="logotipo-de-instagram.png" class="rs">
+                </a> 
+                <a href="https://www.facebook.com/damii.martinez.9469">
+                    <img src="facebook.png" class="rs">
+                </a>
+                <a href="https://www.linkedin.com/in/damian-ignacio-martinez-9328a92b8/">
+                    <img src="linkedin.png" class="rs">
+                </a>
+            </div>
+
+            <div class="footer2">
+                <p><b>Git Hub: </b><a href="https://github.com/DamiiMartinez" class="op">https://github.com/DamiiMartinez</a> </p>
+                <p> Copyright Damian Martinez&copy; Todos los derechos reservados  </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script1.js"></script>
+</html>
