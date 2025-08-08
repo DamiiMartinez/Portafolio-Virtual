@@ -18,6 +18,10 @@ img {
     margin-top: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -58,6 +62,12 @@ header {
 .Datos {
     width: 100%;
     height: 450px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.info{
+    margin-left: 40px;
 }
 
 /* Sección de Portafolio */
@@ -194,9 +204,20 @@ ul.submenu {
 
 /* Footer */
 footer {
-    display: flex;
     padding: 25px;
     color: white;
+    background-color: rgba(145, 125, 125, 0.911);
+}
+
+.red{
+    width: 100%;
+    height: 30px;
+}
+
+.pie{
+    width: 100%;
+    max-height: 200px;
+    display: flex;
 }
 
 .footer1 {
